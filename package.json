@@ -17,7 +17,7 @@
     "eslint": "^3.18.0",
     "textlint-scripts": "^1.2.2"
   },
-  "name": "textlint-rule-ja-hiragana-keishikimeishi",
+  "name": "textlint-rule-ja-keishikimeishi",
   "directories": {
     "test": "test"
   },
