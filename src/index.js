@@ -28,7 +28,7 @@ function reporter(context, options = {}) {
 
         results.forEach(function(result) {
           
-          if (result.dict.expected === "ほう" && Object.keys(options).length && !options.ditection_hou_kata){
+          if (result.dict.expected === "ほう" && Object.keys(options).length && !options.detection_hou_kata){
             return;
           }
 

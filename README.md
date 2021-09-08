@@ -19,7 +19,7 @@ Via `.textlintrc`(Recommended)
     "rules": {
         "ja-keishikimeishi": {
             //方をほうと訂正するか否か
-            "ditection_hou_kata" : false
+            "detection_hou_kata" : false
         }
     }
 }
