@@ -18,8 +18,10 @@ Via `.textlintrc`(Recommended)
 {
     "rules": {
         "ja-keishikimeishi": {
-            //方をほうと訂正するか否か
-            "detection_hou_kata" : false
+            //「方」を「ほう」と訂正するか否か
+            "detection_hou_kata" : false,
+            //「上」を「うえ」と訂正するか否か
+            "detection_ue" : false
         }
     }
 }
@@ -67,7 +69,7 @@ Test textlint rule by [textlint-tester](https://github.com/textlint/textlint-tes
 | 〜する通り（に） | 〜するとおり（に） |
 | 〜する物（だ） | 〜するもの（だ） |
 
-「〜する方が」は、検知するかどうかをオプションで選択できます。
+「〜する上（で）」「〜する方（が）」は、検知するかどうかをオプションで選択できます。
 
 ## License
 
