@@ -29,7 +29,7 @@
   "license": "MIT",
   "description": "Check easy-to-read Keishikimeishi(formal nouns) written in Hiragana than Kanji.",
   "dependencies": {
-    "kuromojin": "^2.1.1",
+    "kuromojin": "^3.0.0",
     "morpheme-match-all": "^1.1.0"
   }
 }
